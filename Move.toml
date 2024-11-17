@@ -1,0 +1,15 @@
+[package]
+name = "On_chain_student_credential_verification"
+version = "1.0.0"
+authors = []
+
+[addresses]
+OnChainStudentCredentialVerification = '0x73838cc80ca88b7db63008d2b23bdddc25fae311f7b9aaf9086eb48b16d837140x73838cc80ca88b7db63008d2b23bdddc25fae311f7b9aaf9086eb48b16d83714'
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
